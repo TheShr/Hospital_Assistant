@@ -31,7 +31,9 @@ Build an AI-powered Patient Query Assistant that:
 2. **Vectorises** content using free, SOTA embeddings
 3. **Stores** vectors in Supabase (pgvector)
 4. **Answers** questions strictly from the document — no hallucination allowed
-
+   
+---
+[![Watch the video](https://img.youtube.com/vi/FoL6rGOLCPc/0.jpg)](https://youtu.be/FoL6rGOLCPc)
 ---
 
 ## 🏗️ Architecture
