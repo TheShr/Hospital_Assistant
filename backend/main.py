@@ -50,9 +50,7 @@ app.add_middleware(GZipMiddleware, minimum_size=1000)
 
 # Routes
 app.include_router(router, prefix="/api/v1")
-from core.config import settings
 
-print("KEY:", settings.SUPABASE_SERVICE_KEY)
 
 @app.get("/health")
 async def health_check():
