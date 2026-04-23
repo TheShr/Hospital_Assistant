@@ -1,4 +1,4 @@
-# 🏥 RAG-based Hospital Patient Query Assistant
+# RAG-based Hospital Patient Query Assistant
 
 > An **AI-powered Patient Query Assistant** that answers questions **strictly from your hospital document** — zero hallucination, page-level citations, hybrid search.
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📖 Table of Contents
+## Table of Contents
 
 - [Problem Statement](#-problem-statement)
 - [Architecture](#-architecture)
@@ -23,7 +23,7 @@
 
 ---
 
-## 🧠 Problem Statement
+## Problem Statement
 
 Build an AI-powered Patient Query Assistant that:
 
@@ -37,7 +37,7 @@ Build an AI-powered Patient Query Assistant that:
 [![Watch the video](https://img.youtube.com/vi/FoL6rGOLCPc/0.jpg)](https://youtu.be/FoL6rGOLCPc)
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 ╔══════════════════════════════════════════════════════════════════════╗
@@ -96,7 +96,7 @@ Build an AI-powered Patient Query Assistant that:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 rag-hospital-assistant/
@@ -125,7 +125,7 @@ rag-hospital-assistant/
 
 ---
 
-## ⚙️ Setup Guide
+## Setup Guide
 
 ### Prerequisites
 
@@ -218,7 +218,7 @@ END; $$;
 
 ---
 
-## 🚀 Running the App
+## Running the App
 
 **Terminal 1 — Backend:**
 ```bash
@@ -236,7 +236,7 @@ UI → [http://localhost:8501](http://localhost:8501)
 
 ---
 
-## 📡 API Reference
+## API Reference
 
 ### `POST /api/v1/upload`
 
@@ -304,7 +304,7 @@ curl http://localhost:8000/api/v1/documents
 
 ---
 
-## 💬 Sample Queries
+## Sample Queries
 
 | Question | Expected Source |
 |----------|----------------|
@@ -320,7 +320,7 @@ curl http://localhost:8000/api/v1/documents
 
 ---
 
-## 🧩 Design Decisions
+## Design Decisions
 
 ### BGE-small vs OpenAI Embeddings
 
@@ -342,7 +342,7 @@ Mid-sentence cuts destroy semantic completeness. The chunker uses abbreviation-a
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |-------|-----------|
@@ -357,7 +357,7 @@ Mid-sentence cuts destroy semantic completeness. The chunker uses abbreviation-a
 
 ---
 
-## ✅ Bonus Features Implemented
+## Bonus Features Implemented
 
 - [x] Streamlit UI with professional chat interface
 - [x] Source text highlighting (expandable context chunks)
@@ -369,7 +369,7 @@ Mid-sentence cuts destroy semantic completeness. The chunker uses abbreviation-a
 
 ---
 
-## 🧪 Running Tests
+## Running Tests
 
 ```bash
 pytest tests/ -v
